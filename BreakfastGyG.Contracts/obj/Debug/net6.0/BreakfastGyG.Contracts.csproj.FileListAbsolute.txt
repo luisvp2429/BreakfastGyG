@@ -1,0 +1,12 @@
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\bin\Debug\net6.0\BreakfastGyG.Contracts.deps.json
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\bin\Debug\net6.0\BreakfastGyG.Contracts.dll
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\bin\Debug\net6.0\BreakfastGyG.Contracts.pdb
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.csproj.AssemblyReference.cache
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.AssemblyInfoInputs.cache
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.AssemblyInfo.cs
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.dll
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\refint\BreakfastGyG.Contracts.dll
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\BreakfastGyG.Contracts.pdb
+C:\Users\luis5\Desktop\BreakfastGyG\API\BreakfastGyG\BreakfastGyG.Contracts\obj\Debug\net6.0\ref\BreakfastGyG.Contracts.dll
