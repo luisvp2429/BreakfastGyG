@@ -1,8 +1,8 @@
-POST http://localhost:5286/breakfasts
+POST https://localhost:7168/breakfasts
 Content-Type: application/json
 
 {
-    "name": "Vegan Breakfast",
+    "name": "",
     "description": "Vegan breakfast with oatmeal, avocado toast, omelette, salad and cookie. And coffee of course.",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
