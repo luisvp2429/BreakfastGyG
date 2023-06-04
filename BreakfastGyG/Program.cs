@@ -15,10 +15,23 @@ var builder = WebApplication.CreateBuilder(args);
 
     builder.Services.AddDbContext<BreakfastGyGDbContext>(options =>
             options.UseSqlServer("Server=localhost;Database=BreakfastGyG;User Id=SA;Password=Luis*Passw0rd;Encrypt=false"));
+
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("AllowAll",
+            builder =>
+            {
+                builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            });
+    });
 }
 
 var app = builder.Build();
 {
+    app.UseCors("AllowAll");
     app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.MapControllers();
