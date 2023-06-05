@@ -13,6 +13,8 @@ public class CreateBreakfastRequestValidator : AbstractValidator<CreateBreakfast
         RuleFor(x=>x.Description).NotEmpty();
         RuleFor(x=>x.StartDateTime).NotEmpty();
         RuleFor(x=>x.EndDateTime).NotEmpty();
+        RuleFor(x=>x.Savory).NotEmpty();        
+        RuleFor(x=>x.Sweet).NotEmpty();
     }
 }
 

@@ -19,6 +19,16 @@ public class BreakfastsController : ApiController
         _breakfastService = breakfastService;
     }
 
+    [HttpGet]
+    public IActionResult ListBreakfasts()
+    {
+        ErrorOr<List<Breakfast>> getBreakfastResult = _breakfastService.ListBreakfasts();
+
+        return getBreakfastResult.Match(
+            breakfasts => Ok(breakfasts.Select(breakfast => MapBreakfastResponse(breakfast))),
+            errors => Problem(errors));
+    }
+
     [HttpPost]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
