@@ -15,6 +15,12 @@ public class BreakfastService : IBreakfastService
         _dbContext = dbContext;
     }
 
+    public ErrorOr<List<Breakfast>> ListBreakfasts()
+    {
+        return _dbContext.Breakfasts.ToList();
+    }
+
+
     public ErrorOr<Created> CreateBreakfast(Breakfast breakfast)
     {
         _dbContext.Add(breakfast);

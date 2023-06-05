@@ -5,6 +5,7 @@ namespace BreakfastGyG.Services.Breakfasts;
 
 public interface IBreakfastService
 {
+    ErrorOr<List<Breakfast>> ListBreakfasts();
     ErrorOr<Created> CreateBreakfast(Breakfast breakfast);
     ErrorOr<Breakfast> GetBreakfast(Guid id);
     ErrorOr<UpsertedBreakfast> UpsertBreakfast(Breakfast breakfast);

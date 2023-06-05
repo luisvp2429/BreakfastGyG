@@ -1,3 +1,6 @@
-@id=fc82cfff-ce5d-45c3-bdfb-6b777030e78b
+@id=81ac8b50-1f0c-46b2-a186-431fb4d4ecae
+
+GET https://localhost:7168/breakfasts
+
 
 GET https://localhost:7168/breakfasts/{{id}}
